@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  /* non selectable */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+}
+
+.btnCon {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(223, 223, 223);
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btnCon:hover {
+  background-color: rgb(165, 165, 165);
+}
+
+.counter {
+  margin: 0 8px;
+  font-size: 16px;
+}
